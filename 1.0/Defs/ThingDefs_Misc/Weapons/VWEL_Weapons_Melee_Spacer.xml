@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>VWEL_LaserSword</defName>
+    <label>laser sword</label>
+    <description>An ultratech device consisting of a handle and an extendable laser blade. A weapon of gentlemen.</description>
+    <graphicData>
+		<texPath>Things/WeaponMelee/LaserSwordOn</texPath>
+		<shaderType>TransparentPostLight</shaderType>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.2</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags Inherit="False">
+		<li>LaserGun</li>
+    </weaponTags>
+    <costList>
+		<Steel>75</Steel>
+		<Plasteel>60</Plasteel>
+		<ComponentSpacer>12</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+		<MarketValue>2000</MarketValue>
+		<Mass>1.4</Mass>
+    </statBases>
+    <equippedAngleOffset>-15</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>31</power>
+        <armorPenetration>0.50</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>31</power>
+        <armorPenetration>0.50</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+                <groundGraphic>
+                    <texPath>Things/WeaponMelee/LaserSwordOff</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
+                </groundGraphic>
+            </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers />
+      <unfinishedThingDef>UnfinishedSalvagedLaserGun</unfinishedThingDef>
+      <researchPrerequisite>VWE_LaserWeapons</researchPrerequisite>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+	<tradeability>Sellable</tradeability>
+  </ThingDef>
+
+  
+</Defs>

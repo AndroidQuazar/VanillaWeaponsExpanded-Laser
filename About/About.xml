@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Weapons Expanded - Laser</name>
+	<author>Oskar Potocki</author>
+	<supportedVersions><li>1.0</li><li>1.1</li><li>1.2</li></supportedVersions>
+	<packageId>VanillaExpanded.VWEL</packageId>
+	<description>Vanilla Weapons Expanded - Laser is an addition to one of the most popular mods of Vanilla Expanded collection - Vanilla Weapons Expanded, however it can be played without it. This mod adds a selection of ultratech weapons, with a small number of them craftable, whilst keeping the majority of them only obtainable from the enemy drops, world quests and traders. Laser weapons introduce a new projectile type - a laser beam that has a slight chance of setting the enemy on fire. These weapons have high armour piercing and are extremely effective in combat against armored enemies and mechanoids.
+
+Salvaged Laser weapons are obtainable by players using a new Salvage laser weapon recipe, which uses intellectual skill of pawns and allows them to look through advanced components to come up with a random laser weapon. Salvaged laser weapons are less accurate than their state-of-the-art ultratech counterparts, and are more prone to overheating.
+
+Laser weapons have a brand new warm-up mechanic making them perfect for defensive battles - the longer your pawn is stationary whilst firing, the faster the weapon can fire. Once it reaches maximum firing speed however, it can overheat, causing a small explosion with a chance of setting your pawn on fire.
+
+Vanilla Weapons Expanded is part of a series of mods expanding on everyday life on the Rimworld. When paired together with a brand new Vanilla Apparel Expanded and Vanilla Armours Expanded, you can bring something to your game that will keep you interested in it for days.
+
+	</description>
+</ModMetaData>

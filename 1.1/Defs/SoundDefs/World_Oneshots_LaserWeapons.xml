@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <SoundDef>
+    <defName>VWE_Interact_LaserGun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/Interact_LaserGun</clipFolderPath>
+          </li>
+        </grains>  
+        <volumeRange>
+          <min>16</min>        
+          <max>17</max>
+        </volumeRange>  
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>VWE_Interact_UnstableLaserGun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/Interact_UnstableLaserGun</clipFolderPath>
+          </li>
+        </grains> 
+        <volumeRange>
+          <min>16</min>        
+          <max>17</max>
+        </volumeRange>  
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
+  <SoundDef>
+    <defName>VWE_LaserShot_Light</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/LaserShot_Light</clipFolderPath>
+          </li>
+        </grains>  
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>    
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>VWE_UnstableLaserShot_Light</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/UnstableLaserShot_Light</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.83</min>        
+          <max>1.15</max>
+        </pitchRange>
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>    
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>VWE_LaserShot_Rifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/LaserShot_Rifle</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.83</min>        
+          <max>1.15</max>
+        </pitchRange>
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>    
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>VWE_UnstableLaserShot_Rifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/UnstableLaserShot_Rifle</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.83</min>        
+          <max>1.15</max>
+        </pitchRange>
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>    
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>VWE_LaserShot_Heavy</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/LaserShot_Heavy</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.83</min>        
+          <max>1.15</max>
+        </pitchRange>
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>    
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>VWE_UnstableLaserShot_Heavy</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/UnstableLaserShot_Heavy</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.83</min>        
+          <max>1.15</max>
+        </pitchRange>
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>    
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>VWE_LaserShot_Electricity</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/LaserShot_Electricity</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.83</min>        
+          <max>1.15</max>
+        </pitchRange>
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>    
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Dummy ====================-->
+  
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>LaserRandom</defName>    
+    <label>salvaged laser weapon</label> 
+    <description>A bunch of components that when assembled can create a salvaged laser weapon.</description>
+    <graphicData>
+      <texPath>Things/Items/UnfinishedSalvageLaser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>1</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="RRO.CompProperties_RandomOutcomeComp">
+        <canProvideTags>
+          <li>SalvagedLaserGun</li>
+        </canProvideTags>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

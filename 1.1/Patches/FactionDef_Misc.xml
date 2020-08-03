@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+   <!-- Adds weapons to ancient danger sites -->
+    <Operation Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="Pirate"]/pawnGroupMakers</xpath>
+                <value>
+					<li>
+						<!-- Normal fights, ranged with melee and lasers mix-ins -->
+						<kindDef>Combat</kindDef>
+						<commonality>1000</commonality>
+						<options>
+							  <Drifter>10</Drifter>
+							<Thrasher>3</Thrasher>
+							  <Scavenger>10</Scavenger>
+							  <Pirate>10</Pirate>
+							  <Grenadier_EMP>0.5</Grenadier_EMP>
+							  <Grenadier_Destructive>2</Grenadier_Destructive>
+							  <Mercenary_Gunner>10</Mercenary_Gunner>
+							  <Mercenary_Heavy>6</Mercenary_Heavy>
+							  <Mercenary_Slasher>3</Mercenary_Slasher>
+							  <Mercenary_Sniper>7</Mercenary_Sniper>
+							  <Mercenary_Elite>10</Mercenary_Elite>
+							  <Mercenary_Marine>5</Mercenary_Marine>
+						</options>
+					</li>
+					<li>
+						<!-- Normal fights, ranged only with lasers -->
+						<kindDef>Combat</kindDef>
+						<commonality>20</commonality>
+						<options>
+							<Scavenger>10</Scavenger>
+							<Pirate>10</Pirate>
+							<Grenadier_EMP>0.5</Grenadier_EMP>
+							<Grenadier_Destructive>2</Grenadier_Destructive>
+							<Mercenary_Gunner>10</Mercenary_Gunner>
+							<Mercenary_Heavy>6</Mercenary_Heavy>
+							<Mercenary_Sniper>7</Mercenary_Sniper>
+							<Mercenary_Elite>10</Mercenary_Elite>
+							<Mercenary_Marine>5</Mercenary_Marine>
+						</options>
+					</li>
+					<li>
+						<!-- Normal fights, explosives with ranged and lasers mix-ins -->
+						<kindDef>Combat</kindDef>
+						<commonality>15</commonality>
+						<disallowedStrategies>
+							<li>Siege</li>
+						</disallowedStrategies>
+						<options>
+							<Grenadier_EMP>1</Grenadier_EMP>
+							<Grenadier_Destructive>10</Grenadier_Destructive>
+							<Mercenary_Gunner>1</Mercenary_Gunner>
+							<Mercenary_Heavy>10</Mercenary_Heavy>
+							<Mercenary_Elite>1</Mercenary_Elite>
+							<Mercenary_Marine>1</Mercenary_Marine>
+						</options>
+					</li>
+					<li>
+						<!-- Base defense, mainly ranged with melee and lasers mix-ins -->
+						<kindDef>Settlement</kindDef>
+						<options>
+							<Thrasher>3</Thrasher>
+							<Pirate>10</Pirate>
+							<Grenadier_Destructive>2</Grenadier_Destructive>
+							<Mercenary_Slasher>3</Mercenary_Slasher>
+							<Mercenary_Sniper>10</Mercenary_Sniper>
+							<Mercenary_Gunner>10</Mercenary_Gunner>
+							<Mercenary_Elite>10</Mercenary_Elite>
+							<Mercenary_Marine>1</Mercenary_Marine>
+						</options>
+					</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>

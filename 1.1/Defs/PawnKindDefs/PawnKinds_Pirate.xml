@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef ParentName="MercenaryEliteTierBase">
+    <defName>Mercenary_Marine</defName>
+    <label>mercenary marine</label>
+    <labelPlural>mercenary marines</labelPlural>
+	<defaultFactionType>Pirate</defaultFactionType>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+   <combatPower>300</combatPower>
+    <maxGenerationAge>30</maxGenerationAge>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <gearHealthRange>1~1</gearHealthRange>
+    <apparelTags Inherit="False">
+      <li>SpacerMilitary</li>
+    </apparelTags>
+    <apparelMoney>4500~5500</apparelMoney>
+    <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+    <weaponMoney>2500~4400</weaponMoney>
+    <weaponTags Inherit="False">
+			<li>LaserGun</li>
+    </weaponTags>
+    <techHediffsMoney>1000~1200</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.65</techHediffsChance>
+    <combatEnhancingDrugsChance>0.80</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+  </PawnKindDef>
+
+</Defs>
