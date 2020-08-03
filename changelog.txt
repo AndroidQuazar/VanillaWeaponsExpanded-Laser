@@ -1,0 +1,59 @@
+Vanilla Weapons Expanded - Laser 1.2
+
+Laser pistol
+Bullet damage 8 -> 10
+Range 22.9 -> 23.9
+Accuracy touch 0.6 -> 0.8
+Average accuracy is now 69.5%
+Warmup reduction per shot 0.25 -> 0.3
+
+Laser SMG
+Accuracy touch 0.66 -> 0.8
+Ranged weapon cooldown 2 -> 1.9
+Range 19.9 -> 23.9
+
+Laser rifle
+Bullet damage 12 -> 9
+Armor penetration 0.56 -> 0.6
+Range 31 -> 32.9
+Burst shot count 1 -> 2
+Warmup reduction per shot 0.1 -> 0.225
+
+Laser shotgun
+Bullet damage 7 -> 8
+Range 19.9 -> 14.9
+Warmup reduction per shot 0.05 -> 0.175
+
+Laser sniper rifle
+Bullet damage 46 -> 45
+Accuracy long 0.88 -> 0.90
+Average accuracy is now 82.75%
+Warmup reduction per shot 0.5 -> 1.8
+
+Laser minigun
+Bullet damage 6 -> 7
+Range 28 -> 29.9
+Warmup reduction per shot 0.5 -> 0.55
+
+Salvaged laser pistol
+Damage type Burn -> Bullet
+Bullet damage 5 -> 9
+Armor penetration 0.66 -> 0.60
+Range 22.9 -> 19.9
+Burst shot count 1 -> 2
+Warmup reduction per shot 0.3 -> 0.23
+
+Salvaged laser rifle
+Damage type Burn -> Bullet
+Warmup reduction per shot 0.20 -> 0.25
+
+Salvaged laser shotgun
+Damage type Burn -> Bullet
+Range 19.9 -> 14.9
+Warmup reduction per shot 0.1 -> 0.3
+
+Salvaged sniper rifle
+Damage type Burn -> Bullet
+Range 44.9 -> 39.9
+Warmup reduction per shot 1 -> 1.5
+

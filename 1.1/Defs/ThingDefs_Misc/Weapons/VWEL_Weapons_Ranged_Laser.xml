@@ -49,7 +49,7 @@
     </graphicData>
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>8</damageAmountBase>
+		<damageAmountBase>10</damageAmountBase>
 		<armorPenetrationBase>0.66</armorPenetrationBase>
 		<stoppingPower>0.5</stoppingPower>
 		<speed>85</speed>
@@ -70,7 +70,7 @@
 		<WorkToMake>82500</WorkToMake>
 		<MarketValue>2000</MarketValue>
 		<Mass>1.2</Mass>
-			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyTouch>0.80</AccuracyTouch>
 			<AccuracyShort>0.72</AccuracyShort>
 			<AccuracyMedium>0.70</AccuracyMedium>
 			<AccuracyLong>0.56</AccuracyLong>
@@ -106,9 +106,9 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>VWEL_Bullet_LaserPistol</defaultProjectile>
 			<warmupTime>2</warmupTime>
-			<range>22.9</range>
+			<range>23.9</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-			<burstShotCount>1</burstShotCount>
+			<burstShotCount>2</burstShotCount>
 			<soundCast>VWE_LaserShot_Light</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
@@ -120,7 +120,7 @@
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>0.25</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
@@ -167,11 +167,11 @@
 		<WorkToMake>82500</WorkToMake>
 		<MarketValue>2400</MarketValue>
 		<Mass>1.8</Mass>
-			<AccuracyTouch>0.66</AccuracyTouch>
+			<AccuracyTouch>0.80</AccuracyTouch>
 			<AccuracyShort>0.74</AccuracyShort>
 			<AccuracyMedium>0.70</AccuracyMedium>
 			<AccuracyLong>0.46</AccuracyLong>
-			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
     </statBases>
     <costList>
 		<Steel>75</Steel>
@@ -203,7 +203,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>VWEL_Bullet_LaserPistol</defaultProjectile>
 			<warmupTime>2</warmupTime>
-			<range>19.9</range>
+			<range>23.9</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
 			<soundCast>VWE_LaserShot_Light</soundCast>
@@ -261,8 +261,8 @@
 
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>12</damageAmountBase>
-		<armorPenetrationBase>0.56</armorPenetrationBase>
+		<damageAmountBase>9</damageAmountBase>
+		<armorPenetrationBase>0.60</armorPenetrationBase>
 		<stoppingPower>1.5</stoppingPower>
     </projectile>
   </ThingDef>
@@ -317,9 +317,9 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>VWEL_Bullet_LaserRifle</defaultProjectile>
 			<warmupTime>2</warmupTime>
-			<range>31</range>
+			<range>32.9</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-			<burstShotCount>1</burstShotCount>
+			<burstShotCount>2</burstShotCount>
 			<soundCast>VWE_LaserShot_Rifle</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
@@ -331,7 +331,7 @@
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>0.1</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>0.225</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
@@ -376,7 +376,7 @@
 	<lifetime>60</lifetime>
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>7</damageAmountBase>
+		<damageAmountBase>8</damageAmountBase>
 		<armorPenetrationBase>0.56</armorPenetrationBase>
 		<stoppingPower>2</stoppingPower>
     </projectile>
@@ -432,7 +432,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>VWEL_Bullet_LaserShotgun</defaultProjectile>
 			<warmupTime>2.2</warmupTime>
-			<range>19.9</range>
+			<range>14.9</range>
 			<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
 			<burstShotCount>4</burstShotCount>
 			<soundCast>VWE_LaserShot_Heavy</soundCast>
@@ -446,7 +446,7 @@
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>0.05</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>0.175</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
@@ -491,7 +491,7 @@
 	<lifetime>120</lifetime>
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>46</damageAmountBase>
+		<damageAmountBase>45</damageAmountBase>
 		<armorPenetrationBase>1</armorPenetrationBase>
 		<stoppingPower>3</stoppingPower>
     </projectile>
@@ -514,7 +514,7 @@
 			<AccuracyTouch>0.64</AccuracyTouch>
 			<AccuracyShort>0.85</AccuracyShort>
 			<AccuracyMedium>0.92</AccuracyMedium>
-			<AccuracyLong>0.88</AccuracyLong>
+			<AccuracyLong>0.90</AccuracyLong>
 			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -563,7 +563,7 @@
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>0.5</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>1.8</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
@@ -607,7 +607,7 @@
 
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>6</damageAmountBase>
+		<damageAmountBase>7</damageAmountBase>
 		<armorPenetrationBase>0.32</armorPenetrationBase>
 		<stoppingPower>1</stoppingPower>
     </projectile>
@@ -666,7 +666,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>VWEL_Bullet_LaserMinigun</defaultProjectile>
 			<warmupTime>4</warmupTime>
-			<range>28</range>
+			<range>29.9</range>
 			<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
 			<burstShotCount>8</burstShotCount>
 			<soundCast>VWE_LaserShot_Rifle</soundCast>
@@ -680,7 +680,7 @@
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>0.5</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>0.55</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Flame</OverheatBlastDamageDef>
@@ -851,9 +851,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-		<damageDef>Burn</damageDef>
-		<damageAmountBase>5</damageAmountBase>
-		<armorPenetrationBase>0.66</armorPenetrationBase>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>9</damageAmountBase>
+		<armorPenetrationBase>0.60</armorPenetrationBase>
 		<stoppingPower>0.5</stoppingPower>
 		<speed>85</speed>
     </projectile>
@@ -898,9 +898,9 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>VWEL_Bullet_SalvagedLaserPistol</defaultProjectile>
 			<warmupTime>2</warmupTime>
-			<range>22.9</range>
+			<range>19.9</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-			<burstShotCount>1</burstShotCount>
+			<burstShotCount>2</burstShotCount>
 			<soundCast>VWE_UnstableLaserShot_Light</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
@@ -912,7 +912,7 @@
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>0.23</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
@@ -955,7 +955,7 @@
     <causefireChance>0.15</causefireChance>
 
     <projectile>
-		<damageDef>Burn</damageDef>
+		<damageDef>Bullet</damageDef>
 		<damageAmountBase>10</damageAmountBase>
 		<armorPenetrationBase>0.56</armorPenetrationBase>
 		<stoppingPower>1.5</stoppingPower>
@@ -1015,7 +1015,7 @@
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>0.2</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>0.25</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
@@ -1059,7 +1059,7 @@
 	<beamWidth>1.3</beamWidth>
 	<lifetime>60</lifetime>
     <projectile>
-		<damageDef>Burn</damageDef>
+		<damageDef>Bullet</damageDef>
 		<damageAmountBase>4</damageAmountBase>
 		<armorPenetrationBase>0.56</armorPenetrationBase>
 		<stoppingPower>2</stoppingPower>
@@ -1105,21 +1105,21 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>VWEL_Bullet_SalvagedLaserShotgun</defaultProjectile>
 			<warmupTime>2.2</warmupTime>
-			<range>19.9</range>
+			<range>14.9</range>
 			<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
 			<burstShotCount>4</burstShotCount>
 			<soundCast>VWE_UnstableLaserShot_Heavy</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
-				<canTargetLocations>true</canTargetLocations>
+			<canTargetLocations>true</canTargetLocations>
 			</targetParams>
       </li>
     </verbs>
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>0.1</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
@@ -1163,7 +1163,7 @@
 	<beamWidth>1.5</beamWidth>
 	<lifetime>120</lifetime>
     <projectile>
-		<damageDef>Burn</damageDef>
+		<damageDef>Bullet</damageDef>
 		<damageAmountBase>36</damageAmountBase>
 		<armorPenetrationBase>1</armorPenetrationBase>
 		<stoppingPower>3</stoppingPower>
@@ -1211,7 +1211,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>VWEL_Bullet_SalvagedLaserSniperRifle</defaultProjectile>
 			<warmupTime>4.6</warmupTime>
-			<range>44.9</range>
+			<range>39.9</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>1</burstShotCount>
 			<soundCast>VWE_UnstableLaserShot_Heavy</soundCast>
@@ -1225,7 +1225,7 @@
 	<comps>     
 		<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor">
 			<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-			<WarmUpReductionPerShot>1</WarmUpReductionPerShot>
+			<WarmUpReductionPerShot>1.5</WarmUpReductionPerShot>
 			<Overheats>true</Overheats>
 			<OverheatDestroys>false</OverheatDestroys>
 			<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
