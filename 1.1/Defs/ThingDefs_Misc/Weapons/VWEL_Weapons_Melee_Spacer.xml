@@ -51,7 +51,7 @@
           <li>Cut</li>
         </capacities>
         <power>31</power>
-        <armorPenetration>0.50</armorPenetration>
+        <armorPenetration>1</armorPenetration>
         <cooldownTime>2.6</cooldownTime>
       </li>
       <li>
@@ -60,7 +60,7 @@
           <li>Cut</li>
         </capacities>
         <power>31</power>
-        <armorPenetration>0.50</armorPenetration>
+        <armorPenetration>1</armorPenetration>
         <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
